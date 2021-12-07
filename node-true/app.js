@@ -7,7 +7,7 @@ const port = 8080
 app.get('/', (req, res) => {
 
 	  res.json({
-			setting: false
+			setting: true
 		})
 })
 
